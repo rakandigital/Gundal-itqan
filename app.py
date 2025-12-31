@@ -200,7 +200,20 @@ elif st.session_state.page == "hafaz":
                 else:
                     st.session_state.page = "completed"
             st.rerun()
-
+            
+    with st.expander("⏸️ Berhenti & Lihat Progress"):
+        if st.session_state.logs:
+            df = pd.DataFrame(st.session_state.logs)
+            st.dataframe(df, use_container_width=True)
+            csv = df.to_csv(index=False).encode("utf-8")
+            st.download_button(
+                "Muat Turun Progress",
+                csv,
+                "gundal_itqan.csv",
+                "text/csv"
+            )
+        else:
+            st.write("Belum ada rekod.")
 # ================= COMPLETED =================
 elif st.session_state.page == "completed":
 
