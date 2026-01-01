@@ -135,13 +135,13 @@ elif st.session_state.page == "hafaz":
         row = "display:flex; gap:4px; margin-bottom:6px;"
         box = "flex:1; height:25px; border-radius:4px; border:1px solid #e2e8f0;"
 
-        st.caption("📖 Baca (Buka Mushaf)")
+        st.caption("📖 Baca (Buka Mushaf) - Baca dan ulang baca ayat yang ingin dihafaz dengan melihat mushaf.")
         html = f"<div style='{row}'>"
         for x in data["read"]:
             html += f"<div style='{box} background:{'#10b981' if x else '#e2e8f0'}'></div>"
         st.markdown(html + "</div>", unsafe_allow_html=True)
 
-        st.caption("🧠 Hafaz (Tutup Mushaf)")
+        st.caption("🧠 Hafaz (Tutup Mushaf)" - Tutup mushaf dan masa untuk ulang baca tanpa melihat mushaf.)
         html = f"<div style='{row}'>"
         for x in data["recite"]:
             html += f"<div style='{box} background:{'#ffA500' if x else '#e2e8f0'}'></div>"
