@@ -29,8 +29,8 @@ st.markdown("""
 .content-area { margin-top:30px; }
 
 div.stButton > button:first-child {
-    position: fixed; bottom: 25px; right:25px;
-    width: 150px; height: 50px; border-radius: 5%;
+    position: fixed; bottom: 50px; right:25px;
+    width: 200px; height: 100px; border-radius: 5%;
     background-color: #10b981 !important; color: white !important;
     font-size: 26px !important; z-index: 99999; border: none !important;
     box-shadow: 0 4px 15px rgba(16,185,129,0.4);
