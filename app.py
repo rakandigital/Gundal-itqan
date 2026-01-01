@@ -141,7 +141,7 @@ elif st.session_state.page == "hafaz":
             html += f"<div style='{box} background:{'#10b981' if x else '#e2e8f0'}'></div>"
         st.markdown(html + "</div>", unsafe_allow_html=True)
 
-        st.caption("🧠 Hafaz (Tutup Mushaf)" - Tutup mushaf dan masa untuk ulang baca tanpa melihat mushaf.)
+        st.caption("🧠 Hafaz (Tutup Mushaf) - Tutup mushaf dan masa untuk ulang baca tanpa melihat mushaf.")
         html = f"<div style='{row}'>"
         for x in data["recite"]:
             html += f"<div style='{box} background:{'#ffA500' if x else '#e2e8f0'}'></div>"
