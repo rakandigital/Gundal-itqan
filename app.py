@@ -122,7 +122,7 @@ elif st.session_state.page == "hafaz":
     <div class="sticky-header">
         <div class="header-title">{st.session_state.surah_display}</div>
         <div class="header-context">
-            Ayat {st.session_state.ayah} • Set {st.session_state.set_no}/10
+            Ayat {st.session_state.ayah} • Set {st.session_state.set_no}/6
         </div>
     </div>
     """, unsafe_allow_html=True)
@@ -163,7 +163,7 @@ elif st.session_state.page == "hafaz":
                     st.rerun()
 
             if all(st.session_state.progress["read"]) and all(st.session_state.progress["recite"]):
-                if st.session_state.set_no < 10:
+                if st.session_state.set_no < 6:
                     st.session_state.set_no += 1
                     st.session_state.progress = {"read":[False]*5,"recite":[False]*5}
                 else:
