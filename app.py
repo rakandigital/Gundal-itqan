@@ -251,7 +251,7 @@ elif st.session_state.page == "completed":
 # ================= FOOTER =================
 st.markdown("""
 <div class="footer">
-<p>❤️ <b>Gundal Itqan</b></p>
+<p>❤️ <b>Gundal Itqan by Rakan Digital 2026</b></p>
 <p><a href="https://raw.githubusercontent.com/rakandigital/Gundal-itqan/e68e34ac6d76978649f81696d6dc94c0b920cd4b/Panduan%20Pengguna.txt">Panduan Penggunaan</a></p>
 <p><a href="https://www.wasap.my/601116623298/Gundal+itqan">Hubungi kami</a></p>
 <p><a href="https://www.bizappay.my/q4oVo1RmSN">Support / Sumbangan</a></p>
