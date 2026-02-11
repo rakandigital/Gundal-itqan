@@ -1,7 +1,11 @@
+------------------------------------------
 📖 Panduan Pengguna: Aplikasi Gundal Itqan
+------------------------------------------
 Selamat datang ke perjalanan hafazan yang lebih sistematik. Aplikasi ini dibangunkan berdasarkan metodologi "Itqan" untuk memastikan hafalan anda mantap melalui sistem gundalan 6 set dan cumulative recap.
 
+------------------------------------------
 🛠 Langkah 1: Persediaan Awal
+------------------------------------------
 Identiti: Masukkan nama anda untuk tujuan rakaman laporan dan audit trail.
 
 Pilih Surah: Gunakan menu dropdown untuk memilih surah (contoh: Al-Fatihah atau 4 Qul).
@@ -10,7 +14,9 @@ Pilih Ayat: Gunakan menu dropdown untuk memilih ayat spesifik bagi memulakan ses
 
 Rujukan: Untuk versi ini, rujukan ayat perlu dilakukan menggunakan mushaf fizikal bagi menjaga fokus.
 
+------------------------------------------
 🚀 Langkah 2: Memulakan Sesi Gundal (6 Set)
+------------------------------------------
 Setiap ayat memerlukan anda melengkapkan 6 set gundalan penuh sebelum berpindah ke ayat seterusnya. Setiap set mengandungi dua fasa utama:
 
 Fasa Baca (5x): Baca ayat secara melihat mushaf sebanyak 5 kali. Tekan butang terapung (+) setiap kali selesai satu bacaan untuk mengisi kotak gundal Hijau.
@@ -19,21 +25,28 @@ Fasa Hafaz (5x): Ulang ayat tanpa melihat mushaf sebanyak 5 kali. Tekan butang (
 
 Pantau Dashboard: Lihat statistik AYAT dan SET (x/6) untuk melihat kemajuan semasa anda secara real-time.
 
+------------------------------------------
 🔄 Langkah 3: Fasa Ulangan (Recap)
+------------------------------------------
 Selepas melengkapkan 6 set bagi satu ayat, aplikasi akan mengaktifkan fasa Recap secara automatik.
 
 Ulang Semua: Anda dikehendaki mengulang bacaan bermula dari Ayat 1 surah tersebut sehingga ayat yang baru sahaja selesai dihafaz.
 
 Lengkapkan Recap: Tekan butang (+) sebanyak 10 kali (5x Baca, 5x Hafaz) di dalam Tracker Recap untuk pengesahan hafalan kumulatif.
 
+------------------------------------------
 ⏭️ Langkah 4: Berpindah ke Ayat Seterusnya
+------------------------------------------
 Next Ayah: Sebaik sahaja Recap selesai, butang untuk ke ayat seterusnya akan muncul.
 
 Selesai Surah: Mesej tahniah dan log rekod progres akan dipaparkan setelah ayat terakhir selesai dihafaz.
 
+------------------------------------------
 📊 Langkah 5: Simpan Rekod (Pause & Share)
+------------------------------------------
 Semak Log: Buka bahagian "Pause & View Progress Logs" untuk melihat jadual timestamp aktiviti anda.
 
 Muat Turun: Klik "Download Progress (CSV)" untuk menyimpan bukti hafazan yang boleh dikongsikan kepada Ustazah atau mentor.
 
-Nota Penting: Aplikasi ini menggunakan session state. Elakkan menutup tab pelayar web secara tidak sengaja untuk mengelakkan data sesi hilang sebelum dimuat turun.
+-----------------Nota Penting: ------------------------------------------
+Aplikasi ini menggunakan session state. Elakkan menutup tab pelayar web secara tidak sengaja untuk mengelakkan data sesi hilang sebelum dimuat turun.
