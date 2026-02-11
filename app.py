@@ -29,7 +29,7 @@ st.markdown("""
 .content-area { margin-top:30px; }
 
 div.stButton > button:first-child {
-    position: fixed; bottom: 25px; center:0px;
+    position: fixed; bottom: 25px; centered: 0px;
     width: 125px; height: 35px; border-radius: 5%;
     background-color: #10b981 !important; color: white !important;
     font-size: 26px !important; z-index: 99999; border: none !important;
