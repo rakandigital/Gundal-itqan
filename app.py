@@ -30,7 +30,7 @@ st.markdown("""
 
 div.stButton > button:first-child {
     position: fixed; bottom: 25px; right:25px;
-    width: 1250px; height: 75px; border-radius: 5%;
+    width: 125px; height: 35px; border-radius: 5%;
     background-color: #10b981 !important; color: white !important;
     font-size: 26px !important; z-index: 99999; border: none !important;
     box-shadow: 0 4px 15px rgba(16,185,129,0.4);
