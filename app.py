@@ -252,6 +252,8 @@ elif st.session_state.page == "completed":
 st.markdown("""
 <div class="footer">
 <p>❤️ <b>Gundal Itqan</b></p>
+<p><a href="https://raw.githubusercontent.com/rakandigital/Gundal-itqan/e68e34ac6d76978649f81696d6dc94c0b920cd4b/Panduan%20Pengguna.txt">Panduan Penggunaan</a></p>
+<p><a href="https://www.wasap.my/601116105858/Gundal+itqan">Hubungi kami</a></p>
 <p><a href="https://www.bizappay.my/q4oVo1RmSN">Support / Sumbangan</a></p>
 <p><small>Free Version · Fokus Mushaf</small></p>
 </div>
