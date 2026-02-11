@@ -29,8 +29,8 @@ st.markdown("""
 .content-area { margin-top:30px; }
 
 div.stButton > button:first-child {
-    position: fixed; bottom: 35px; right: 30px;
-    width: 125px; height: 35px; border-radius: 5%;
+    position: fixed; bottom: 50px; right: 30px;
+    width: 250px; height: 35px; border-radius: 5%;
     background-color: #10b981 !important; color: white !important;
     font-size: 26px !important; z-index: 99999; border: none !important;
     box-shadow: 0 4px 15px rgba(16,185,129,0.4);
@@ -253,7 +253,7 @@ st.markdown("""
 <div class="footer">
 <p>❤️ <b>Gundal Itqan</b></p>
 <p><a href="https://raw.githubusercontent.com/rakandigital/Gundal-itqan/e68e34ac6d76978649f81696d6dc94c0b920cd4b/Panduan%20Pengguna.txt">Panduan Penggunaan</a></p>
-<p><a href="https://www.wasap.my/601116105858/Gundal+itqan">Hubungi kami</a></p>
+<p><a href="https://www.wasap.my/601116623298/Gundal+itqan">Hubungi kami</a></p>
 <p><a href="https://www.bizappay.my/q4oVo1RmSN">Support / Sumbangan</a></p>
 <p><small>Free Version · Fokus Mushaf</small></p>
 </div>
